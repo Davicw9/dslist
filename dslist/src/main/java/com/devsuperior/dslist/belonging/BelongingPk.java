@@ -1,6 +1,6 @@
 package com.devsuperior.dslist.belonging;
 
-import com.devsuperior.dslist.GameList.GameList;
+import com.devsuperior.dslist.GameList.entitie.GameList;
 import com.devsuperior.dslist.game.entitie.Game;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;

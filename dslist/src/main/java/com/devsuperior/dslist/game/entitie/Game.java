@@ -31,8 +31,6 @@ public class Game {
     public Game() {}
 
     //GETTERS AND SETTERS
-
-
     public Long getId() {
         return id;
     }
