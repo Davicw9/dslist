@@ -6,15 +6,13 @@ import com.devsuperior.dslist.GameList.service.GameListService;
 import com.devsuperior.dslist.game.dto.GameMinDto;
 import com.devsuperior.dslist.game.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping(value = "/lists")
+@CrossOrigin(origins = "*")
 public class GameListController {
 
     @Autowired
